@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: glaze-smp
+    runtime: docker
+    plan: free
+    envVars:
+      - key: MINECRAFT_VERSION
+        value: "1.8"
