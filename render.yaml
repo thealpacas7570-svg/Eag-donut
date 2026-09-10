@@ -6,3 +6,5 @@ services:
     envVars:
       - key: MINECRAFT_VERSION
         value: "1.8"
+      - key: PORT
+        value: "5200"
